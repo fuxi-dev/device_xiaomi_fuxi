@@ -5,9 +5,9 @@
 #
 
 # Include the common OEM chipset BoardConfig.
-include device/oneplus/sm8550-common/BoardConfigCommon.mk
+include device/xiaomi/sm8550-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/salami
+DEVICE_PATH := device/xiaomi/fuxi
 
 # Display
 TARGET_SCREEN_DENSITY := 450
@@ -34,4 +34,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/salami/BoardConfigVendor.mk
+include vendor/xiaomi/fuxi/BoardConfigVendor.mk

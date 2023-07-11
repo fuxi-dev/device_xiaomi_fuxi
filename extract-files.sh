@@ -14,8 +14,8 @@ fi
 
 set -e
 
-export DEVICE=salami
+export DEVICE=fuxi
 export DEVICE_COMMON=sm8550-common
-export VENDOR=oneplus
+export VENDOR=xiaomi
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"
