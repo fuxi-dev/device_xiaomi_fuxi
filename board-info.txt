@@ -1,1 +1,1 @@
-require board=kalama|OP594DL1
+require board=kalama|fuxi

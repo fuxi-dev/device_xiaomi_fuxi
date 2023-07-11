@@ -387,9 +387,25 @@
         </props>
     </compress-device>
 
+    <mixer>
+        <id>1</id>
+        <name>agm_mixer</name>
+        <mixer_plugin>
+            <so-name>libagm_mixer_plugin.so</so-name>
+        </mixer_plugin>
+    </mixer>
+
+</card>
+
+
+<card>
+
+    <id>101</id>
+    <name>kalamavirtualsndcard-1</name>
+
     <pcm-device>
-        <id>125</id>
-        <name>PCM125</name>
+        <id>150</id>
+        <name>PCM150</name>
         <pcm_plugin>
             <so-name>libagm_pcm_plugin.so</so-name>
         </pcm_plugin>
@@ -409,4 +425,5 @@
     </mixer>
 
 </card>
+
 </defs>

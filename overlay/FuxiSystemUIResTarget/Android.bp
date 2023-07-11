@@ -4,6 +4,6 @@
 //
 
 runtime_resource_overlay {
-    name: "OPlusSystemUIResTarget",
+    name: "FuxiSystemUIResTarget",
     device_specific: true,
 }

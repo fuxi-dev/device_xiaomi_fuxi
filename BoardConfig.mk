@@ -5,9 +5,9 @@
 #
 
 # Include the common OEM chipset BoardConfig.
-include device/oneplus/sm8550-common/BoardConfigCommon.mk
+include device/xiaomi/sm8550-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/salami
+DEVICE_PATH := device/xiaomi/fuxi
 
 # Display
 TARGET_SCREEN_DENSITY := 450
@@ -18,6 +18,7 @@ KERNEL_MODULE_DIR := $(TARGET_KERNEL_DIR)/modules
 
 BOARD_PREBUILT_DTBIMAGE_DIR := $(TARGET_KERNEL_DIR)
 BOARD_PREBUILT_DTBOIMAGE := $(TARGET_KERNEL_DIR)/dtbo.img
+TARGET_PREBUILT_DTB := $(TARGET_KERNEL_DIR)/dtb
 TARGET_PREBUILT_KERNEL := $(TARGET_KERNEL_DIR)/kernel
 
 # Kernel modules
@@ -25,7 +26,6 @@ KERNEL_MODULES := $(wildcard $(KERNEL_MODULE_DIR)/*.ko)
 
 BOARD_VENDOR_KERNEL_MODULES := $(addprefix $(KERNEL_MODULE_DIR)/, $(notdir $(BOARD_VENDOR_KERNEL_MODULES_LOAD)))
 BOARD_VENDOR_RAMDISK_KERNEL_MODULES := $(addprefix $(KERNEL_MODULE_DIR)/, $(notdir $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD)))
-BOARD_VENDOR_RAMDISK_KERNEL_MODULES_ARCHIVE := $(KERNEL_MODULE_DIR)/vendor_ramdisk_include.zip
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
@@ -34,4 +34,4 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 TARGET_RECOVERY_UI_MARGIN_HEIGHT := 103
 
 # Include the proprietary files BoardConfig.
-include vendor/oneplus/salami/BoardConfigVendor.mk
+include vendor/xiaomi/fuxi/BoardConfigVendor.mk

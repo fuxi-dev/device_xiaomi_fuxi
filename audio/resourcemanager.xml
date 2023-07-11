@@ -1,81 +1,75 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- Copyright (c) 2020-2022, Qualcomm Innovation Center, Inc.All rights reserved -->
-<!--                                                                             -->
-<!--  Redistribution and use in source and binary forms, with or without         -->
-<!--  modification, are permitted provided that the following conditions are     -->
-<!--  met:                                                                       -->
-<!--      * Redistributions of source code must retain the above copyright       -->
-<!--        notice, this list of conditions and the following disclaimer.        -->
-<!--      * Redistributions in binary form must reproduce the above              -->
-<!--        copyright notice, this list of conditions and the following          -->
-<!--        disclaimer in the documentation and/or other materials provided      -->
-<!--        with the distribution.                                               -->
-<!--      * Neither the name of The Linux Foundation nor the names of its        -->
-<!--        contributors may be used to endorse or promote products derived      -->
-<!--        from this software without specific prior written permission.        -->
-<!--                                                                             -->
-<!--  NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED    -->
-<!--  BY THIS LICENSE. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND    -->
-<!--  CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING,     -->
-<!--  BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND          -->
-<!--  FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE     -->
-<!--  COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT,       -->
-<!--  INCIDENTAL, SPECIAL, EXEMPLARY,OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT    -->
-<!--  NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF,      -->
-<!--  USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON     -->
-<!--  ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT    -->
-<!--  (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE      -->
-<!--  OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.ANY    -->
-<!--  DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL         -->
-<!--  DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS    -->
-<!--  OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)      -->
-<!--  HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,        -->
-<!--  STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING      -->
-<!--  IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISEDOF THE          -->
-<!--  POSSIBILITY OF SUCH DAMAGE.                                                -->
-<!--                                                                                      -->
-<!-- Changes from Qualcomm Innovation Center are provided under the following license:    -->
-<!-- Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.             -->
-<!--                                                                                      -->
-<!-- Redistribution and use in source and binary forms, with or without                   -->
-<!-- modification, are permitted (subject to the limitations in the                       -->
-<!-- disclaimer below) provided that the following conditions are met:                    -->
-<!--                                                                                      -->
-<!--     * Redistributions of source code must retain the above copyright                 -->
-<!--       notice, this list of conditions and the following disclaimer.                  -->
-<!--                                                                                      -->
-<!--     * Redistributions in binary form must reproduce the above                        -->
-<!--       copyright notice, this list of conditions and the following                    -->
-<!--       disclaimer in the documentation and/or other materials provided                -->
-<!--       with the distribution.                                                         -->
-<!--                                                                                      -->
-<!--     * Neither the name of Qualcomm Innovation Center, Inc. nor the names of its      -->
-<!--       contributors may be used to endorse or promote products derived                -->
-<!--       from this software without specific prior written permission.                  -->
-<!--                                                                                      -->
-<!-- NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE                      -->
-<!-- GRANTED BY THIS LICENSE. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT                  -->
-<!-- HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED                          -->
-<!-- WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF                 -->
-<!-- MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.                 -->
-<!-- IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR                 -->
-<!-- ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL               -->
-<!-- DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE                    -->
-<!-- GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS                        -->
-<!-- INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER                 -->
-<!-- IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR                      -->
-<!-- OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN                  -->
-<!-- IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.                                        -->
+<!-- Copyright (c) 2019-2021, The Linux Foundation. All rights reserved.
+
+* Redistribution and use in source and binary forms, with or without
+* modification, are permitted provided that the following conditions are
+* met:
+*     * Redistributions of source code must retain the above copyright
+*       notice, this list of conditions and the following disclaimer.
+*     * Redistributions in binary form must reproduce the above
+*       copyright notice, this list of conditions and the following
+*       disclaimer in the documentation and/or other materials provided
+*       with the distribution.
+*     * Neither the name of The Linux Foundation nor the names of its
+*       contributors may be used to endorse or promote products derived
+*       from this software without specific prior written permission.
+
+* THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
+* WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+* MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
+* ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS
+* BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+* CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+* SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR
+* BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,
+* WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE
+* OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+* IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+* Changes from Qualcomm Innovation Center are provided under the following license:
+*
+* Copyright (c) 2022 Qualcomm Innovation Center, Inc. All rights reserved.
+*
+* Redistribution and use in source and binary forms, with or without
+* modification, are permitted (subject to the limitations in the
+* disclaimer below) provided that the following conditions are met:
+*
+* * Redistributions of source code must retain the above copyright
+* notice, this list of conditions and the following disclaimer.
+*
+* * Redistributions in binary form must reproduce the above
+* copyright notice, this list of conditions and the following
+* disclaimer in the documentation and/or other materials provided
+* with the distribution.
+*
+* * Neither the name of Qualcomm Innovation Center, Inc. nor the names of its
+* contributors may be used to endorse or promote products derived
+* from this software without specific prior written permission.
+*
+* NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE
+* GRANTED BY THIS LICENSE. THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT
+* HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED
+* WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+* MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+* IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR
+* ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+* DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE
+* GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+* INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER
+* IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR
+* OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN
+* IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. -->
+
 <resource_manager_info>
     <version>2.0</version>
     <config_params>
-        <param key="native_audio_mode" value="false"/>
+        <param key="native_audio_mode" value="multiple_mix_dsp"/>
         <!-- Uncomment HIFI Filter Headphones related sections when set this
              hifi_filter key to true -->
         <param key="hifi_filter" value="false"/>
         <param key="max_sessions" value="128"/>
         <param key="max_nonTunnel_sessions" value="4"/>
-        <param key="logging_level" value ="7" />
+        <param key="logging_level" value ="3" />
         <param key="context_manager_enable" value ="false" />
         <param key="lpi_logging_enable" value ="false" />
         <param key="upd_dedicated_be" value ="true" />
@@ -83,44 +77,7 @@
         <param key="device_mux_config" value ="false" />
         <param key="upd_duty_cycle_enable" value="false" />
         <param key="upd_virtual_port" value ="false" />
-        <!-- Jie.Du@MULTIMEDIA.AUDIODRIVER.SMARTPA, 2021/06/22, add for engineermode test -->
-        <param key="oplus_mic_count" value ="2" />
-        <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2021/08/12, Add for mulit scene record -->
-        <param key="oplus_multi_record" value="true"/>
-        <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2021/08/12, Add for AP LVACFS -->
-        <param key="record_use_ap_lvacfs" value="enable"/>
-        <param key="record_zoom_support" value="true"/>
-        <!-- Yongzhi.Zhang@MULTIMEDIA.AUDIODRIVER.FEATURE, 2021/10/18, Add for hdr record -->
-        <param key="oplus_hdr_record" value="true"/>
-        <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2021/08/27, Add for smartpa power monitor -->
-        <param key="support_smartpa_pm" value="true"/>
-        <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2021/08/31, Add for ear protection -->
-        <param key="oplus_ear_protection_enable" value="true"/>
-        <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2021/10/21, Add for power analysis -->
-        <param key="power_analysis_enable" value="true"/>
-        <!-- ZhaoShengtao@MULTIMEDIA.AUDIODRIVER, 2021/10/28, Add for audio abnormal detect -->
-        <param key="audio_detect_config_enable" value="true"/>
-        <!-- liuhaituo@MULTIMEDIA.AUDIODRIVER, 2022/04/16, Add adsp ssr interfac start -->
-        <param key="adsp_ssr_support" value="yes"/>
-        <!-- YeWenliang@MULTIMEDIA.AUDIODRIVER, 2022/09/05, Add for mute speaker before device stop -->
-        <param key="mute_speaker_enable" value="true"/>
     </config_params>
-    <config_volume>
-        <use_volume_set_param>1</use_volume_set_param>
-        <supported_streams>
-            <supported_stream>PAL_STREAM_ULTRA_LOW_LATENCY</supported_stream>
-            <supported_stream>PAL_STREAM_COMPRESSED</supported_stream>
-            <supported_stream>PAL_STREAM_PCM_OFFLOAD</supported_stream>
-            <supported_stream>PAL_STREAM_VOIP_RX</supported_stream>
-        </supported_streams>
-    </config_volume>
-    <config_lpm>
-        <use_disable_lpm>1</use_disable_lpm>
-        <lpm_supported_streams>
-            <lpm_supported_stream>PAL_STREAM_LOW_LATENCY</lpm_supported_stream>
-            <lpm_supported_stream>PAL_STREAM_ULTRA_LOW_LATENCY</lpm_supported_stream>
-        </lpm_supported_streams>
-    </config_lpm>
     <config_gapless key="gapless_supported" value="1"/>
     <bt_codecs>
         <codec codec_format="CODEC_TYPE_AAC" codec_type="enc|dec" codec_library="lib_bt_bundle.so" />
@@ -144,7 +101,7 @@
     <config_voice>
         <vsid>0xB3000000</vsid>
         <loopbackDelay>1000</loopbackDelay>
-        <maxVolIndex>9</maxVolIndex>
+        <maxVolIndex>5</maxVolIndex>
         <mode_map>
             <modepair key="0x11C05000" value="0xB3000001"/>
             <modepair key="0x11DC5000" value="0xB3000001"/>
@@ -152,13 +109,12 @@
             <modepair key="0x121C6000" value="0xB3000001"/>
         </mode_map>
     </config_voice>
-    <sleep_monitor_vote_streams>
-        <low_power_stream_type>PAL_STREAM_VOICE_UI</low_power_stream_type>
-        <low_power_stream_type>PAL_STREAM_ACD</low_power_stream_type>
-        <low_power_stream_type>PAL_STREAM_ULTRASOUND</low_power_stream_type>
-        <low_power_stream_type>PAL_STREAM_SENSOR_PCM_DATA</low_power_stream_type>
-        <avoid_vote_stream_type>PAL_STREAM_CONTEXT_PROXY</avoid_vote_stream_type>
-    </sleep_monitor_vote_streams>
+    <low_power_vote_streams>
+        <stream_type>PAL_STREAM_VOICE_UI</stream_type>
+        <stream_type>PAL_STREAM_ACD</stream_type>
+        <stream_type>PAL_STREAM_ULTRASOUND</stream_type>
+        <stream_type>PAL_STREAM_SENSOR_PCM_DATA</stream_type>
+    </low_power_vote_streams>
     <group_device_cfg>
         <upd_rx>
             <snd_device name="handset" />
@@ -189,17 +145,12 @@
             <id>PAL_DEVICE_IN_HANDSET_MIC</id>
             <back_end_name>CODEC_DMA-LPAIF_RXTX-TX-3</back_end_name>
             <max_channels>4</max_channels>
-            <channels>2</channels>
+            <channels>1</channels>
             <samplerate>48000</samplerate>
-            <bit_width>24</bit_width>
             <snd_device_name>handset-mic</snd_device_name>
             <ec_enable>0</ec_enable>
             <usecase>
                 <name>PAL_STREAM_LOW_LATENCY</name>
-                <custom-config key="camcorder-mic">
-                    <channels>2</channels>
-                    <snd_device_name>camcorder-mic</snd_device_name>
-                </custom-config>
             </usecase>
             <usecase>
                 <name>PAL_STREAM_DEEP_BUFFER</name>
@@ -219,42 +170,6 @@
                 <custom-config key="unprocessed-hdr-mic-inverted-portrait">
                     <channels>4</channels>
                     <snd_device_name>unprocessed-hdr-mic-inverted-portrait</snd_device_name>
-                </custom-config>
-                <custom-config key="main-mic-record">
-                    <channels>1</channels>
-                    <snd_device_name>main-mic-test</snd_device_name>
-                </custom-config>
-                <custom-config key="sec-mic-record">
-                    <channels>1</channels>
-                    <snd_device_name>sec-mic-test</snd_device_name>
-                </custom-config>
-                <custom-config key="anc-mic-record">
-                    <channels>1</channels>
-                    <snd_device_name>anc-mic-test</snd_device_name>
-                </custom-config>
-                <custom-config key="mmi-stero-mic-record">
-                    <channels>2</channels>
-                    <snd_device_name>mmi-mic-record</snd_device_name>
-                </custom-config>
-                <custom-config key="mmi-anc-mic-record">
-                    <channels>1</channels>
-                    <snd_device_name>mmi-anc-mic-record</snd_device_name>
-                </custom-config>
-                <custom-config key="mmi-seal-mic-record">
-                    <channels>2</channels>
-                    <snd_device_name>mmi-mic-seal-record</snd_device_name>
-                </custom-config>
-                <custom-config key="camcorder-mic">
-                    <channels>2</channels>
-                    <snd_device_name>camcorder-mic</snd_device_name>
-                </custom-config>
-                <custom-config key="oprec-mic">
-                    <channels>4</channels>
-                    <snd_device_name>oprec-mic</snd_device_name>
-                </custom-config>
-                <custom-config key="normalrec-mic">
-                    <channels>2</channels>
-                    <snd_device_name>handset-mic</snd_device_name>
                 </custom-config>
             </usecase>
         <!--Uncomment these lines instead of above lines if needing to enable EC per custom key
@@ -289,15 +204,11 @@
                 <name>PAL_STREAM_VOIP_TX</name>
                 <priority>2</priority>
                 <ec_enable>1</ec_enable>
-                <custom-config key="HAC">
-                    <channels>2</channels>
-                    <snd_device_name>voice-dmic-ef-hac</snd_device_name>
-                </custom-config>
             </usecase>
             <usecase>
                 <name>PAL_STREAM_VOICE_CALL</name>
                 <priority>1</priority>
-                <sidetone_mode>OFF</sidetone_mode>
+                <sidetone_mode>HW</sidetone_mode>
                 <bit_width>16</bit_width>
                 <ec_enable>1</ec_enable>
                 <custom-config key="dual-mic">
@@ -308,20 +219,12 @@
                     <channels>4</channels>
                     <snd_device_name>quad-mic</snd_device_name>
                 </custom-config>
-                <custom-config key="HAC">
-                    <channels>2</channels>
-                    <snd_device_name>voice-dmic-ef-hac</snd_device_name>
-                </custom-config>
             </usecase>
             <usecase>
                 <name>PAL_STREAM_ULTRA_LOW_LATENCY</name>
-                <custom-config key="oprec-mic">
+                <custom-config key="dual-mic">
                     <channels>2</channels>
-                    <snd_device_name>handset-mic</snd_device_name>
-                </custom-config>
-                <custom-config key="normalrec-mic">
-                    <channels>2</channels>
-                    <snd_device_name>handset-mic</snd_device_name>
+                    <snd_device_name>handset-dmic-endfire</snd_device_name>
                 </custom-config>
             </usecase>
             <usecase>
@@ -354,16 +257,11 @@
             <back_end_name>CODEC_DMA-LPAIF_RXTX-TX-3</back_end_name>
             <max_channels>4</max_channels>
             <samplerate>48000</samplerate>
-            <bit_width>24</bit_width>
-            <channels>2</channels>
+            <channels>1</channels>
             <ec_enable>0</ec_enable>
             <snd_device_name>speaker-mic</snd_device_name>
             <usecase>
                 <name>PAL_STREAM_LOW_LATENCY</name>
-                <custom-config key="camcorder-mic">
-                    <channels>2</channels>
-                    <snd_device_name>camcorder-mic</snd_device_name>
-                </custom-config>
             </usecase>
             <usecase>
                 <name>PAL_STREAM_DEEP_BUFFER</name>
@@ -383,18 +281,6 @@
                 <custom-config key="unprocessed-hdr-mic-inverted-portrait">
                     <channels>4</channels>
                     <snd_device_name>unprocessed-hdr-mic-inverted-portrait</snd_device_name>
-                </custom-config>
-                <custom-config key="camcorder-mic">
-                    <channels>2</channels>
-                    <snd_device_name>camcorder-mic</snd_device_name>
-                </custom-config>
-                <custom-config key="oprec-mic">
-                    <channels>4</channels>
-                    <snd_device_name>oprec-mic</snd_device_name>
-                </custom-config>
-                <custom-config key="normalrec-mic">
-                    <channels>2</channels>
-                    <snd_device_name>speaker-mic</snd_device_name>
                 </custom-config>
             </usecase>
         <!--Uncomment these lines instead of above lines if needing to enable EC per custom key
@@ -450,14 +336,6 @@
             </usecase>
             <usecase>
                 <name>PAL_STREAM_ULTRA_LOW_LATENCY</name>
-                <custom-config key="oprec-mic">
-                    <channels>2</channels>
-                    <snd_device_name>speaker-mic</snd_device_name>
-                </custom-config>
-                <custom-config key="normalrec-mic">
-                    <channels>2</channels>
-                    <snd_device_name>speaker-mic</snd_device_name>
-                </custom-config>
             </usecase>
             <ec_rx_device>
                 <id>PAL_DEVICE_OUT_SPEAKER</id>
@@ -468,7 +346,6 @@
             <back_end_name>CODEC_DMA-LPAIF_RXTX-TX-3</back_end_name>
             <max_channels>1</max_channels>
             <channels>1</channels>
-            <bit_width>24</bit_width>
             <snd_device_name>headset-mic</snd_device_name>
             <ec_enable>0</ec_enable>
             <usecase>
@@ -477,14 +354,6 @@
             <usecase>
                 <name>PAL_STREAM_DEEP_BUFFER</name>
                 <ec_enable>1</ec_enable>
-                <custom-config key="ktv-mic2rec">
-                    <channels>1</channels>
-                    <snd_device_name>headset-mic</snd_device_name>
-                </custom-config>
-                <custom-config key="ktv-mic">
-                    <channels>1</channels>
-                    <snd_device_name>headset-mic</snd_device_name>
-                </custom-config>
             </usecase>
         <!--Uncomment these lines instead of above lines if needing to enable EC per custom key
             <usecase>
@@ -506,7 +375,7 @@
             </usecase>
             <usecase>
                 <name>PAL_STREAM_VOICE_CALL</name>
-                <sidetone_mode>OFF</sidetone_mode>
+                <sidetone_mode>HW</sidetone_mode>
                 <samplerate>48000</samplerate>
                 <bit_width>16</bit_width>
                 <priority>1</priority>
@@ -514,25 +383,6 @@
             </usecase>
             <usecase>
                 <name>PAL_STREAM_ULTRA_LOW_LATENCY</name>
-                <custom-config key="ktv-mic2rec">
-                    <channels>1</channels>
-                    <snd_device_name>headset-mic</snd_device_name>
-                </custom-config>
-                <custom-config key="ktv-mic">
-                    <channels>1</channels>
-                    <snd_device_name>headset-mic</snd_device_name>
-                </custom-config>
-            </usecase>
-            <usecase>
-                <name>PAL_STREAM_LOOPBACK</name>
-                <custom-config key="ktv-mic2rec">
-                    <channels>1</channels>
-                    <snd_device_name>headset-mic</snd_device_name>
-                </custom-config>
-                <custom-config key="ktv-mic">
-                    <channels>1</channels>
-                    <snd_device_name>headset-mic</snd_device_name>
-                </custom-config>
             </usecase>
             <ec_rx_device>
                 <id>PAL_DEVICE_OUT_WIRED_HEADSET</id>
@@ -610,7 +460,6 @@
             <max_channels>1</max_channels>
             <channels>1</channels>
             <samplerate>48000</samplerate>
-            <bit_width>24</bit_width>
             <ec_enable>0</ec_enable>
             <snd_device_name>usb-headset-mic</snd_device_name>
             <usecase>
@@ -623,14 +472,6 @@
             <usecase>
                 <name>PAL_STREAM_DEEP_BUFFER</name>
                 <ec_enable>1</ec_enable>
-                <custom-config key="ktv-mic2rec">
-                    <channels>1</channels>
-                    <snd_device_name>usb-headset-mic</snd_device_name>
-                </custom-config>
-                <custom-config key="ktv-mic">
-                    <channels>1</channels>
-                    <snd_device_name>usb-headset-mic</snd_device_name>
-                </custom-config>
             </usecase>
         <!--Uncomment these lines instead of above lines if needing to enable EC per custom key
             <usecase>
@@ -647,30 +488,11 @@
             <usecase>
                 <name>PAL_STREAM_VOICE_CALL</name>
                 <priority>1</priority>
-                <sidetone_mode>OFF</sidetone_mode>
+                <sidetone_mode>HW</sidetone_mode>
                 <ec_enable>1</ec_enable>
             </usecase>
             <usecase>
                 <name>PAL_STREAM_ULTRA_LOW_LATENCY</name>
-                <custom-config key="ktv-mic2rec">
-                    <channels>1</channels>
-                    <snd_device_name>usb-headset-mic</snd_device_name>
-                </custom-config>
-                <custom-config key="ktv-mic">
-                    <channels>1</channels>
-                    <snd_device_name>usb-headset-mic</snd_device_name>
-                </custom-config>
-            </usecase>
-            <usecase>
-                <name>PAL_STREAM_LOOPBACK</name>
-                <custom-config key="ktv-mic2rec">
-                    <channels>1</channels>
-                    <snd_device_name>usb-headset-mic</snd_device_name>
-                </custom-config>
-                <custom-config key="ktv-mic">
-                    <channels>1</channels>
-                    <snd_device_name>usb-headset-mic</snd_device_name>
-                </custom-config>
             </usecase>
             <ec_rx_device>
                 <id>PAL_DEVICE_OUT_USB_HEADSET</id>
@@ -692,7 +514,7 @@
             <id>PAL_DEVICE_IN_PROXY</id>
             <back_end_name>PCM_RT_PROXY-TX-1</back_end_name>
             <max_channels>2</max_channels>
-            <channels>1</channels>
+            <channels>2</channels>
             <snd_device_name>afe-proxy</snd_device_name>
             <usecase>
                 <name>PAL_STREAM_PROXY</name>
@@ -700,7 +522,7 @@
         </in-device>
         <in-device>
             <id>PAL_DEVICE_IN_VI_FEEDBACK</id>
-            <back_end_name>MI2S-LPAIF-TX-SECONDARY</back_end_name>
+            <back_end_name>CODEC_DMA-LPAIF_WSA-TX-0</back_end_name>
             <max_channels>2</max_channels>
             <channels>2</channels>
             <samplerate>48000</samplerate>
@@ -709,17 +531,12 @@
         </in-device>
         <in-device>
             <id>PAL_DEVICE_IN_CPS_FEEDBACK</id>
-            <back_end_name>MI2S-LPAIF-TX-SECONDARY</back_end_name>
+            <back_end_name>CODEC_DMA-LPAIF_WSA-TX-2</back_end_name>
             <max_channels>2</max_channels>
             <channels>2</channels>
             <samplerate>24000</samplerate>
             <bit_width>32</bit_width>
             <snd_device_name>cps-feedback</snd_device_name>
-            <usecase>
-                <name>PAL_STREAM_VOICE_CALL</name>
-                <channels>1</channels>
-                <snd_device_name>cps-feedback-mono-2</snd_device_name>
-            </usecase>
         </in-device>
         <in-device>
             <id>PAL_DEVICE_IN_BLUETOOTH_A2DP</id>
@@ -786,8 +603,8 @@
             <snd_device_name>ext_ec_ref_tx</snd_device_name>
             <max_channels>2</max_channels>
             <channels>2</channels>
-            <samplerate>48000</samplerate>
             <bit_width>16</bit_width>
+            <samplerate>48000</samplerate>
         </in-device>
         <in-device>
             <id>PAL_DEVICE_IN_ECHO_REF</id>
@@ -812,22 +629,21 @@
         </out-device>
         <out-device>
             <id>PAL_DEVICE_OUT_SPEAKER</id>
-            <back_end_name>MI2S-LPAIF-RX-SECONDARY</back_end_name>
+            <back_end_name>CODEC_DMA-LPAIF_WSA-RX-0</back_end_name>
             <max_channels>2</max_channels>
             <channels>2</channels>
             <samplerate>48000</samplerate>
-            <bit_width>24</bit_width>
             <snd_device_name>speaker</snd_device_name>
-            <speaker_protection_enabled>1</speaker_protection_enabled>
+            <speaker_protection_enabled>0</speaker_protection_enabled>
             <fractional_sr>0</fractional_sr>
             <!-- To enable external EC reference the flag extec_ref_enabled must be added as 1 -->
             <ext_ec_ref_enabled>0</ext_ec_ref_enabled>
             <!-- Flag to specify cps mode which is applicable
                  Values: disable CPS: 0
                          CPS streaming: 1
-                         ADSP control mode: 2
+                         ADSP control mode : 2
             -->
-            <cps_mode>0</cps_mode>
+            <cps_mode>1</cps_mode>
             <vbat_enabled>0</vbat_enabled>
             <!--specify the supported bit format on speaker end point -->
             <!--this should be in the form of pal_audio_fmt_id-->
@@ -849,55 +665,42 @@
             <usecase>
                 <name>PAL_STREAM_VOICE_CALL</name>
                 <priority>1</priority>
-                <channels>2</channels>
-                <snd_device_name>speaker</snd_device_name>
+                <channels>1</channels>
+                <snd_device_name>speaker-mono-2</snd_device_name>
             </usecase>
             <usecase>
                 <name>PAL_STREAM_VOIP_RX</name>
                 <priority>2</priority>
-                <channels>2</channels>
-                <snd_device_name>speaker</snd_device_name>
             </usecase>
             <usecase>
                 <name>PAL_STREAM_ULTRASOUND</name>
                 <priority>4</priority>
                 <samplerate>96000</samplerate>
             </usecase>
-            <usecase>
-                <name>PAL_STREAM_LOW_LATENCY</name>
-                <custom-config key="left-speaker-playback">
-                    <snd_device_name>mmi-speaker-left</snd_device_name>
-                </custom-config>
-                <custom-config key="right-speaker-playback">
-                    <snd_device_name>mmi-speaker-right</snd_device_name>
-                </custom-config>
-            </usecase>
         </out-device>
         <out-device>
             <id>PAL_DEVICE_OUT_HANDSET</id>
-            <back_end_name>MI2S-LPAIF-RX-SECONDARY</back_end_name>
+            <back_end_name>CODEC_DMA-LPAIF_WSA-RX-0</back_end_name>
             <max_channels>2</max_channels>
-            <channels>2</channels>
+            <channels>1</channels>
             <!-- To enable external EC reference the flag extec_ref_enabled must be added as 1 -->
             <ext_ec_ref_enabled>0</ext_ec_ref_enabled>
             <samplerate>48000</samplerate>
-            <bit_width>24</bit_width>
             <fractional_sr>0</fractional_sr>
             <snd_device_name>handset</snd_device_name>
             <handset_protection_enabled>0</handset_protection_enabled>
           <usecase>
               <name>PAL_STREAM_VOICE_CALL</name>
               <priority>1</priority>
-              <snd_device_name>handset</snd_device_name>
               <custom-config key="HAC">
-                 <snd_device_name>handset</snd_device_name> <!-- override sound device name with HAC handset -->
+                 <snd_device_name>voice-handset-hac</snd_device_name> <!-- override sound device name with HAC handset -->
               </custom-config>
           </usecase>
           <usecase>
               <name>PAL_STREAM_VOIP_RX</name>
               <priority>2</priority>
               <custom-config key="HAC">
-                 <snd_device_name>handset</snd_device_name> <!-- override sound device name with HAC handset for voip -->
+                 <snd_device_name>voice-handset-hac</snd_device_name> <!-- override sound device name with HAC handset for voip -->
               </custom-config>
           </usecase>
           <usecase>
@@ -905,25 +708,12 @@
               <priority>4</priority>
               <samplerate>96000</samplerate>
           </usecase>
-          <usecase>
-              <name>PAL_STREAM_LOW_LATENCY</name>
-              <custom-config key="receiver-playback">
-                  <snd_device_name>mmi-receiver</snd_device_name>
-              </custom-config>
-          </usecase>
-          <usecase>
-              <name>PAL_STREAM_DEEP_BUFFER</name>
-              <custom-config key="receiver-playback">
-                  <snd_device_name>mmi-receiver</snd_device_name>
-              </custom-config>
-          </usecase>
         </out-device>
         <out-device>
             <id>PAL_DEVICE_OUT_WIRED_HEADPHONE</id>
             <back_end_name>CODEC_DMA-LPAIF_RXTX-RX-0</back_end_name>
             <max_channels>2</max_channels>
             <channels>2</channels>
-            <bit_width>24</bit_width>
             <fractional_sr>1</fractional_sr>
             <snd_device_name>headphones</snd_device_name>
         <!--HIFI Filter Headphones-Uncomment this when param key hifi_filter is true
@@ -964,7 +754,6 @@
             <back_end_name>CODEC_DMA-LPAIF_RXTX-RX-0</back_end_name>
             <max_channels>2</max_channels>
             <channels>2</channels>
-            <bit_width>24</bit_width>
             <fractional_sr>1</fractional_sr>
             <snd_device_name>headphones</snd_device_name>
         <!--HIFI Filter Headphones-Uncomment this when param key hifi_filter is true
@@ -1164,6 +953,7 @@
             <name>PAL_STREAM_VOIP_TX</name>
                 <policies>
                     <ec_ref>
+                        <disabled_stream>PAL_STREAM_LOW_LATENCY</disabled_stream>
                         <disabled_stream>PAL_STREAM_GENERIC</disabled_stream>
                     </ec_ref>
                 </policies>
@@ -1241,11 +1031,11 @@
             <!-- Sound trigger streams common params -->
             <param lpi_enable="true" />
             <param support_nlpi_switch="true" />
-            <param support_device_switch="false" />
+            <param support_device_switch="true" />
             <param enable_debug_dumps="false" />
-            <param concurrent_capture="false" />
-            <param concurrent_voice_call="false" />
-            <param concurrent_voip_call="false" />
+            <param concurrent_capture="true" />
+            <param concurrent_voice_call="true" />
+            <param concurrent_voip_call="true" />
             <param low_latency_bargein_enable="false" />
         </common_config>
         <capture_profile_list>
@@ -1400,13 +1190,6 @@
                 <param snd_name="va-mic-dmic" />
                 <param ec_ref="true" />
             </capture_profile>
-            <capture_profile name="DUAL_MIC_16KHZ_16BIT_AIS_ECNS">
-                <param sample_rate="16000" />
-                <param channels="2" />
-                <param bit_width="16" />
-                <param snd_name="va-mic-dmic" />
-                <param ec_ref="true" />
-            </capture_profile>
             <capture_profile name="TRI_MIC_16KHZ_16BIT_FFECNS">
                 <param sample_rate="16000" />
                 <param channels="3" />
@@ -1419,6 +1202,76 @@
                 <param channels="4" />
                 <param bit_width="16" />
                 <param snd_name="va-mic-qmic" />
+                <param ec_ref="true" />
+            </capture_profile>
+            <capture_profile name="SINGLE_MIC_16KHZ_16BIT_CUSTOM_NS">
+                <param sample_rate="16000" />
+                <param channels="1" />
+                <param bit_width="16" />
+                <param snd_name="va-mic-mono-lpi" />
+                <param ec_ref="false" />
+            </capture_profile>
+            <capture_profile name="DUAL_MIC_16KHZ_16BIT_CUSTOM_NS">
+                <param sample_rate="16000" />
+                <param channels="2" />
+                <param bit_width="16" />
+                <param snd_name="va-mic-dmic-lpi" />
+                <param ec_ref="false" />
+            </capture_profile>
+            <capture_profile name="TRI_MIC_16KHZ_16BIT_CUSTOM_NS">
+                <param sample_rate="16000" />
+                <param channels="3" />
+                <param bit_width="16" />
+                <param snd_name="va-mic-tmic-lpi" />
+                <param ec_ref="false" />
+            </capture_profile>
+            <capture_profile name="QUAD_MIC_16KHZ_16BIT_CUSTOM_NS">
+                <param sample_rate="16000" />
+                <param channels="4" />
+                <param bit_width="16" />
+                <param snd_name="va-mic-qmic-lpi" />
+                <param ec_ref="false" />
+            </capture_profile>
+            <capture_profile name="SINGLE_MIC_16KHZ_16BIT_CUSTOM_ECNS">
+                <param sample_rate="16000" />
+                <param channels="1" />
+                <param bit_width="16" />
+                <param snd_name="va-mic-mono" />
+                <param ec_ref="true" />
+            </capture_profile>
+            <capture_profile name="DUAL_MIC_16KHZ_16BIT_CUSTOM_ECNS">
+                <param sample_rate="16000" />
+                <param channels="2" />
+                <param bit_width="16" />
+                <param snd_name="va-mic-dmic" />
+                <param ec_ref="true" />
+            </capture_profile>
+            <capture_profile name="TRI_MIC_16KHZ_16BIT_CUSTOM_ECNS">
+                <param sample_rate="16000" />
+                <param channels="3" />
+                <param bit_width="16" />
+                <param snd_name="va-mic-tmic" />
+                <param ec_ref="true" />
+            </capture_profile>
+            <capture_profile name="QUAD_MIC_16KHZ_16BIT_CUSTOM_ECNS">
+                <param sample_rate="16000" />
+                <param channels="4" />
+                <param bit_width="16" />
+                <param snd_name="va-mic-qmic" />
+                <param ec_ref="true" />
+            </capture_profile>
+            <capture_profile name="SINGLE_MIC_16KHZ_16BIT_HEADSET_CUSTOM_NS">
+                <param sample_rate="16000" />
+                <param channels="1" />
+                <param bit_width="16" />
+                <param snd_name="headset-va-mic-lpi" />
+                <param ec_ref="false" />
+            </capture_profile>
+            <capture_profile name="SINGLE_MIC_16KHZ_16BIT_HEADSET_CUSTOM_ECNS">
+                <param sample_rate="16000" />
+                <param channels="1" />
+                <param bit_width="16" />
+                <param snd_name="headset-va-mic" />
                 <param ec_ref="true" />
             </capture_profile>
         </capture_profile_list>
@@ -1546,7 +1399,7 @@
                 <!-- Module output channels -->
                 <param out_channels="1" />
                 <operating_modes>
-                    <low_power capture_profile_handset="SINGLE_MIC_16KHZ_16BIT_RAW_LPI" capture_profile_headset="SINGLE_MIC_16KHZ_16BIT_HEADSET_RAW_LPI" />
+                    <low_power capture_profile_handset="SINGLE_MIC_16KHZ_16BIT_RAW_LPI" capture_profile_headset="SINGLE_MIC_16KHZ_16BIT_HEADSET_FFNS" />
                     <high_performance capture_profile_handset="DUAL_MIC_16KHZ_16BIT_FFECNS" capture_profile_headset="SINGLE_MIC_16KHZ_16BIT_HEADSET_FFECNS" />
                     <high_performance_and_charging capture_profile_handset="DUAL_MIC_16KHZ_16BIT_FFECNS" capture_profile_headset="SINGLE_MIC_16KHZ_16BIT_HEADSET_FFECNS" />
                 </operating_modes>
@@ -1601,38 +1454,6 @@
                     </arm_ss_module_params>
                 </sound_model_info>
             </stream_config>
-            <!-- AIS Hotword Voice UI-->
-            <stream_config>
-                <name>AIS_HOTWORD_VOICE_UI</name>
-                <param vendor_uuid="68ac2d41-e861-11e4-95ed-0002a5d5c51c" />
-                <param merge_first_stage_sound_models="false" />
-                <!-- Profile specific data which the algorithm can support -->
-                <param capture_keyword="2000" />
-                <param client_capture_read_delay="2000" />
-                <!-- durations in us -->
-                <param kw_start_tolerance="360000" />
-                <param kw_end_tolerance="240000" />
-                <param data_before_kw_start="360000" />
-                <param data_after_kw_end="480000" />
-                <param sample_rate="16000" />
-                <param bit_width="16" />
-                <!-- Module output channels -->
-                <param out_channels="2" />
-                <operating_modes>
-                    <low_power capture_profile_handset="DUAL_MIC_16KHZ_16BIT_RAW_LPI" capture_profile_headset="SINGLE_MIC_16KHZ_16BIT_HEADSET_FFNS"/>
-                    <high_performance capture_profile_handset="DUAL_MIC_16KHZ_16BIT_AIS_ECNS" capture_profile_headset="SINGLE_MIC_16KHZ_16BIT_HEADSET_FFECNS"/>
-                    <high_performance_and_charging capture_profile_handset="DUAL_MIC_16KHZ_16BIT_AIS_ECNS" capture_profile_headset="SINGLE_MIC_16KHZ_16BIT_HEADSET_FFECNS"/>
-                </operating_modes>
-                <sound_model_info>
-                    <first_stage_module_params>
-                        <param module_type="CUSTOM1" />
-                        <param load_sound_model_ids="0xC0000008, 0x0800104C" />
-                        <param custom_config_ids="0xC0000008, 0x0800119B" />
-                        <param buffering_config_ids="0xC0000008, 0x08001044" />
-                        <param engine_reset_ids="0xC0000008, 0x08001051" />
-                    </first_stage_module_params>
-                </sound_model_info>
-            </stream_config>
             <!-- Hotword Voice UI-->
             <stream_config>
                 <name>HOTWORD_VOICE_UI</name>
@@ -1659,6 +1480,40 @@
                         <param unload_sound_model_ids="0xC0000008, 0x00012C15" />
                         <param buffering_config_ids="0xC0000008, 0x08001044" />
                         <param version_ids="0xC0000008, 0x18000101" />
+                        <param engine_reset_ids="0xC0000008, 0x08001051" />
+                    </first_stage_module_params>
+                </sound_model_info>
+            </stream_config>
+            <!-- CUSTOM Voice UI-->
+            <stream_config>
+                <name>CUSTOM_VOICE_UI</name>
+                <!-- NOTE: Customer need to replace with their own uuid and match with sound model -->
+                <param vendor_uuid="c51c508a-ee1b-11ec-8ea0-0242ac120002" />
+                <param merge_first_stage_sound_models="false" />
+                <!-- Profile specific data which the algorithm can support -->
+                <param capture_keyword="2000" /> <!-- Default history buffer length -->
+                <param client_capture_read_delay="2000" /> <!-- reserved buffer duration for rt data -->
+                <param pre_roll_duration="500" /> <!-- Default preroll duration -->
+                <!-- durations in us -->
+                <param kw_start_tolerance="360000" />
+                <param kw_end_tolerance="240000" />
+                <param data_before_kw_start="360000" />
+                <param data_after_kw_end="480000" />
+                <param sample_rate="16000" />
+                <param bit_width="16" />
+                <!-- Module output channels -->
+                <param out_channels="1" />
+                <operating_modes>
+                    <low_power capture_profile_handset="DUAL_MIC_16KHZ_16BIT_CUSTOM_NS" capture_profile_headset="SINGLE_MIC_16KHZ_16BIT_HEADSET_CUSTOM_NS" />
+                    <high_performance capture_profile_handset="DUAL_MIC_16KHZ_16BIT_CUSTOM_ECNS" capture_profile_headset="SINGLE_MIC_16KHZ_16BIT_HEADSET_CUSTOM_ECNS" />
+                    <high_performance_and_charging capture_profile_handset="DUAL_MIC_16KHZ_16BIT_CUSTOM_ECNS" capture_profile_headset="SINGLE_MIC_16KHZ_16BIT_HEADSET_CUSTOM_ECNS" />
+                </operating_modes>
+                <sound_model_info>
+                    <first_stage_module_params>
+                        <param module_type="CUSTOM1" />
+                        <param load_sound_model_ids="0xC0000008, 0x0800104C" />
+                        <param custom_config_ids="0xC0000008, 0x08001049" />
+                        <param buffering_config_ids="0xC0000008, 0x08001044" />
                         <param engine_reset_ids="0xC0000008, 0x08001051" />
                     </first_stage_module_params>
                 </sound_model_info>
