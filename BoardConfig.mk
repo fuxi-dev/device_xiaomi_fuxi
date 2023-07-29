@@ -9,6 +9,9 @@ include device/xiaomi/sm8550-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/fuxi
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := fuxi
+
 # Display
 TARGET_SCREEN_DENSITY := 450
 
